@@ -6,7 +6,10 @@ static int centered = 1;                    /* -c option; centers dmenu on scree
 static int min_width = 700;                    /* minimum width when centered */
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"FiraCode Nerd Font:size=12"
+	"FiraCode Nerd Font:size=12",
+    "Noto Color Emoji:size=12",
+    "Linux Biolinum:size=12",
+    "HanaMinA:size=12"
 };
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
 static const char *colors[SchemeLast][2] = {
